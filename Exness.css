@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.cont{
+    display: flex;
+    margin-top: -20vh;
+    position:fixed;
+    width: 100%;
+    height: 9vh;
+    background-color: white;
+}
+
+._{
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    margin-left: 25px;
+}
+
+._1{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10vh;
+    gap: 5vh;
+    font-size: 19px;
+    font-family: var(--f-country-simple-family);
+    color: #141d22;
+    margin-bottom: 6px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+._2{
+    display: flex;
+    list-style-type: none;
+    gap: 2vh;
+    align-self: center;
+    margin-left: 73vh;
+}
+
+ul li{
+    align-self: center;
+}
+
+.bu1{
+    font-size: 17px;
+    padding: 17px;
+    background-color: rgb(255, 222, 2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.bu1:hover{
+    background-color: rgba(255, 255, 0, 0.897);
+}
+
+.bu2{
+    font-size: 17px;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.bu2:hover{
+    border: 1px solid black;
+    
+}
+
+._2 img{
+    align-self: center;
+}
+
+.sl{
+    display: flex;
+    font-size: 17px;
+}
+
+.maintxt{
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.maintxt h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 500;
+}
+
+.maintxt p{
+    font-size: 24px;
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 4vh;
+}
+
+.mainbu{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.re{
+    padding: 16px 20px 20px 20px;
+    font-size:  15px;
+    font-weight: 600;
+    background-color: rgb(255, 222, 2);
+    border: none;
+    border-radius: 3px;
+}
+
+.re:hover{
+    background-color: rgba(255, 255, 0, 0.897);
+}
+
+.tr{
+    padding: 16px 20px 20px 20px;
+    font-size:  15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+
+.tr:hover{
+    border: 1px solid black;
+    
+}
+
+.cont2{
+    display: flex;
+    gap: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+    padding-top: 30px;
+    width: 68%;
+    margin-left: 30vh;
+    border-top: 1px solid rgb(187, 182, 182);
+}
+
+.tbi{
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.mcon3{
+    width: 209.2vh;
+    height: 200vh;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    margin: 8vh 0 0 0;
+    background-color: #070e20;
+}
+
+.mcon3maintxt{
+    text-align: center;
+    height: 12vh;
+    margin: 10vh 0 0 0;
+}
+
+.mcon3maintxt h1{
+    font-size: 48px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mcon3maintxt p{
+    font-size: 20px;
+    color: rgb(160, 160, 163);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.con3{
+    display: grid;
+    grid-template-columns: 34vh 34vh;
+    justify-content: space-around;
+    background-color: #070e20;
+    color: aliceblue;
+    align-items: center;
+    height: 80vh;
+    width: 170vh;
+    margin: 0 0 60vh 0;
+    background-image: url(xl_trade_without_tradeoffs_sm_454bd5e843.jpg);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position: 600px 100px;
+}
+
+.con3b h1,p{
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.con3b h1{
+    font-size: 24px;
+}
+
+.con3b p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cob{
+    margin: 1.2vh 0 1.2vh 13vh;
+    font-size: 14px;
+    padding: 3px 8px 3px 8px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(108, 133, 149);
+}
+
+.cobutilitydiv{
+    margin-left: 11vh;
+}
+
+.maincon4txt{
+    margin-top: -55vh;
+}
+
+.maincon4txt h1{
+    font-size: 48px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.maincon4txt p{
+    font-size: 20px;
+    color: rgb(160, 160, 163);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.ta{
+    color: white;
+    height: 40vh;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.ta th{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    padding: 14px;
+}
+
+.ta td{
+    border-top: 1px solid grey;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 14px;
+}
+
+.tablem{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-top: 7vh;
+}
+
+.MuiBox-root{
+    height: 60px;
+    width: 60px;
+}
+
+.mainb{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    margin: 7vh 0 7vh 0 ;
+}
+
+.r{
+    padding: 16px 20px 20px 20px;
+    font-size:  15px;
+    font-weight: 600;
+    background-color: rgb(255, 222, 2);
+    border: none;
+    border-radius: 3px;
+}
+
+.r:hover{
+    background-color: rgba(255, 255, 0, 0.897);
+}
+
+.t{
+    padding: 16px 20px 20px 20px;
+    color: white;
+    font-size:  15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color:#0f1e42;
+}
+
+.t:hover{
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.con5{
+    display: flex;
+    gap: 7vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14vh;
+}
+
+#tradeimg{
+    height: 608px;
+    width: 608px;
+}
+
+.rtxt h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    margin-top: 5vh;
+}
+
+.rtxt p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2vh;
+}
+
+.ulx1{
+    list-style-type: none;
+    margin-top: 1vh;
+}
+
+.ulx1 li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.ulx1 li{
+    margin-top: 2vh;
+}
+
+#dotimg{
+    scale: 1;
+    margin-top: -10vh;
+}
+
+.ulx1 li a:hover{
+    text-decoration: underline;
+}
+
+.con6{
+    display: flex;
+    gap: 7vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14vh;
+}
+
+.ltxt h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    margin-top: 5vh;
+}
+
+.ltxt p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2vh;
+}
+
+.ulx2{
+    list-style-type: none;
+    margin-top: 1vh;
+}
+
+.ulx2 li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.ulx2 li{
+    margin-top: 2vh;
+}
+
+.ulx2 li a:hover{
+    text-decoration: underline;
+}
+
+.ta tr th{
+    color: rgb(160, 160, 163);
+}
+
+.bttptxtnb{
+    background-image: url(xxxl_exness_home_podcast_desktop_e1977e9505.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 14vh;
+    color: white;
+}
+
+.bttc p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 3vh;
+    font-weight: 400;
+    width: 1210px;
+    white-space: nowrap;
+}
+
+.bttc h1{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 30vh 0 0 10vh;
+}
+
+.buln{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Schibsted Grotesk", sans-serif;
+    background-color: rgb(255, 222, 2);
+    margin: 4vh 0 0 10vh;
+}
+
+.buln button:hover{
+    background-color: rgba(255, 255, 0, 0.897);;
+}
+
+.bttc{
+    margin-top: 8vh;
+    display: grid;
+}
+
+.cardcontainer{
+    width: 62vh;
+    height: 60vh;
+    border-radius: 10px;
+    outline: 1px solid rgb(189, 187, 187);
+}
+
+.cardcontainer:hover{
+    outline: 1px solid rgb(19, 18, 18); 
+}
+
+.card img{
+    width: 62vh;
+    border-radius: 8px;
+}
+.card{
+    width: 62vh;
+}
+
+.carddes{
+    width: 62vh;
+}
+
+.carddes h3{
+    margin-top: 30px;
+    font-family:  "Schibsted Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 2vh;
+}
+
+.carddes .buea{
+    margin-top: 16px;
+    font-size: 14px;
+    margin-left: 2vh;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    border: none;
+}
+
+.maincc{
+    display: flex;
+    gap: 4vh;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.upmaincctxt{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.upmaincctxt h1{
+    font-size: 48px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+.upmaincctxt p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: grey;
+    margin-top: 3vh;
+}
+
+.upmaincctxt a{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: grey;
+    margin-top: 2vh;
+}
+
+.banner{
+    background-image: url(xxl_home_cta_banner_7bb7b120e2.jpg);
+    height: 33vh;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+    background-size: 100% 30vh;
+}
+
+.mbnanner{
+    display: grid;
+    row-gap: 16vh;
+}
+
+.banner{
+    display: grid;
+}
+
+.banner h1,h3{
+    margin-left: 6vh;
+}
+
+.banner h1{
+    margin-top: 4.5vh;
+    font-weight: 600;
+}
+
+.banner h3{
+    margin-top: 2vh;
+    color: rgba(237, 240, 242, 0.6);
+    font-weight: 400;
+    
+}
+
+.bancont{
+    margin-top: 21vh;
+    height: 18vh;
+    width: 150vh;
+    justify-self: center;
+    background-color:#070e20;
+    color: white;
+    font-family: "Schibsted Grotesk", sans-serif;
+    border-radius: 7px;
+}  
+
+.bancont2{
+    margin-left: 29vh;
+    display: grid;
+    row-gap: 1vh;
+    
+}
+
+.bancont2 h6{
+    font-size: 15px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+    color: rgba(20, 29, 34, 0.6);
+}
+
+.e{
+    padding: 16px 20px 20px 20px;
+    font-size:  15px;
+    font-weight: 600;
+    background-color: rgb(255, 222, 2);
+    border: none;
+    border-radius: 3px;
+    border: 2px solid red;
+}
+
+.e:hover{
+    background-color: rgba(255, 255, 0, 0.897);
+}
+
+.y{
+    padding: 16px 20px 20px 20px;
+    color: white;
+    font-size:  15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color:#0f1e42;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+.y button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.ey{
+    margin-left: 117vh;
+    align-self: center;
+    width: 40vh;
+    margin-top: -7vh;
+}
+
+.ey button{
+       border-radius: 6px;
+       border: none;
+       transition: all 1s ease;
+}
+
+#h1,#h2{
+    width: 100vh;
+}
+   
+.footer-flex{
+    display: flex;
+    column-gap: 3vh;
+    justify-content: center;
+}
+
+.footer-flex ul{
+    list-style-type: none;
+}
+
+.footer-flex ul li{
+    margin-top: 2vh;
+}
+
+.footer-flex ul li a{
+    font-family: "poppins", sans-serif;
+    font-size: 17px;
+    color: rgba(20, 29, 34, 0.6);
+    text-decoration: none;
+}
+
+.footer-flex ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-flex div h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 350;
+}
+
+.last{
+    margin-top: 15vh;
+    padding-bottom: 6vh;
+}
+
+.logo36{
+    margin-left: 29vh;
+    margin-bottom: 7vh;
+    padding-top: 7vh;
+    width: 155vh;
+    border-top: 1px solid rgba(20, 29, 34, 0.6);
+}
+
+.iconsfooter{
+    display: flex;
+    gap: 1.3vh;
+    margin-left: 26vh;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.icons:hover{ 
+    background-color: grey;
+    border-radius: 30px;
+}
+
+.h3{
+    display: grid;
+    row-gap: 2vh;
+    margin-left: 20vh;
+    margin-top: 6vh;
+    grid-template-columns: 160vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid rgba(20, 29, 34, 0.6);
+    width: 166vh;
+}
+
+.h31 h3{
+    font-family: "poppins", sans-serif;
+    color: rgba(20, 29, 34, 0.6);
+    font-weight: 350;
+    font-size: 16px;
+}
+
+#kk55{
+    color: rgba(20, 29, 34, 0.6);
+}
+
+.lastcontent{
+    display: flex;
+}
+
+#mm6432{
+    display: flex;
+    list-style-type: none;
+    gap: 4vh;
+    cursor: pointer;
+    margin-left: 24vh;
+}
+
+#mm6432 li a{
+    color: rgb(20, 29, 34);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+#mm6433{
+    list-style-type: none;
+    margin-left: 75vh;
+}
+
+#mm6433 li h3{
+    font-size: 18px;
+    font-family: "poppins",sans-serif;
+    font-weight: 400;
+    color: rgba(20, 29, 34, 0.6);
+}
+
+.pcidsslogo{
+    margin: 6vh 0 0 24vh;
+}
+
